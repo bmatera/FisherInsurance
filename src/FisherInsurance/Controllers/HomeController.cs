@@ -14,8 +14,8 @@ namespace FisherInsurance.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            //return View();
-            return Ok("This is the index of the HomeController");
+            return View();
+            //return Ok("This is the index of the HomeController");
         }
     }
 }

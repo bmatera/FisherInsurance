@@ -15,24 +15,24 @@ namespace FisherInsurance.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            //return View();
-            return Ok("This is the index of the CustomerCareController");
+            return View();
+            //return Ok("This is the index of the CustomerCareController");
         }
 
         [Route("customer/claims")]
         // GET: /Customercare/Claims
         public IActionResult Claims()
         {
-            //return View();
-            return Ok("This is the /Customercare/Claims of the CustomercareController");
+            return View();
+            //return Ok("This is the /Customercare/Claims of the CustomercareController");
         }
 
         [Route("customer/fileclaim")]
         // GET: /Customercare/Claims
         public IActionResult NewClaim()
         {
-            //return View();
-            return Ok("This is the /Customercare/FileClaim of the CustomercareController");
+            return View();
+            //return Ok("This is the /Customercare/FileClaim of the CustomercareController");
         }
 
 
@@ -40,8 +40,8 @@ namespace FisherInsurance.Controllers
         // GET: /Customercare/Claims
         public IActionResult ClaimHistory()
         {
-            //return View();
-            return Ok("This is the /Customercare/claimstatus of the CustomercareController");
+            return View();
+            //return Ok("This is the /Customercare/claimstatus of the CustomercareController");
         }
     }
 }

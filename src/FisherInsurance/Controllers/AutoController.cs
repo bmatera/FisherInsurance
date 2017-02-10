@@ -13,15 +13,15 @@ namespace FisherInsurance.Controllers
         // GET: /<controller>/
         public IActionResult Index()
         {
-            //return View();
-            return Ok("This is the index of the AutoController");
+            return View();
+            //return Ok("This is the index of the AutoController");
         }
 
         // GET: /Auto/Quote
         public IActionResult Quote()
         {
-            //return View();
-            return Ok("This is the auto/quote of the AutoController");
+           return View();
+            //return Ok("This is the auto/quote of the AutoController");
         }
     }
 }
